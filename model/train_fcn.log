@@ -1,0 +1,1409 @@
+Using device: cuda
+Input resolution: 128x128 (fixed for FPGA)
+[CityscapesADAS] train: Found 2975 images
+[CityscapesADAS] val: Found 500 images
+Cityscapes: 2975 train, 500 val
+SimpleFCN parameters: 11,116 (10.9 KB at INT8)
+
+Starting training for 100 epochs...
+  Classes: ['Road', 'Obstacle', 'Structure', 'Background']
+
+Epoch [1/100] (48s)
+  Train Loss: 1.3382
+  Val Loss:   1.2925
+  mIoU:       0.1906
+    Road        : 0.5698
+    Obstacle    : 0.1322
+    Structure   : 0.0370
+    Background  : 0.0235
+  * New best mIoU: 0.1906
+
+Epoch [2/100] (46s)
+  Train Loss: 1.1792
+  Val Loss:   1.2456
+  mIoU:       0.2109
+    Road        : 0.4821
+    Obstacle    : 0.1317
+    Structure   : 0.0038
+    Background  : 0.2261
+  * New best mIoU: 0.2109
+
+Epoch [3/100] (41s)
+  Train Loss: 1.0535
+  Val Loss:   1.1797
+  mIoU:       0.2563
+    Road        : 0.4491
+    Obstacle    : 0.1298
+    Structure   : 0.0006
+    Background  : 0.4459
+  * New best mIoU: 0.2563
+
+Epoch [4/100] (41s)
+  Train Loss: 0.9843
+  Val Loss:   1.0839
+  mIoU:       0.3071
+    Road        : 0.5262
+    Obstacle    : 0.1530
+    Structure   : 0.0029
+    Background  : 0.5463
+  * New best mIoU: 0.3071
+
+Epoch [5/100] (41s)
+  Train Loss: 0.9354
+  Val Loss:   1.1574
+  mIoU:       0.2788
+    Road        : 0.5258
+    Obstacle    : 0.1493
+    Structure   : 0.0063
+    Background  : 0.4338
+
+Epoch [6/100] (41s)
+  Train Loss: 0.9223
+  Val Loss:   1.0617
+  mIoU:       0.3161
+    Road        : 0.5190
+    Obstacle    : 0.1649
+    Structure   : 0.0201
+    Background  : 0.5604
+  * New best mIoU: 0.3161
+
+Epoch [7/100] (41s)
+  Train Loss: 0.8960
+  Val Loss:   1.2666
+  mIoU:       0.2569
+    Road        : 0.4592
+    Obstacle    : 0.1517
+    Structure   : 0.0215
+    Background  : 0.3951
+
+Epoch [8/100] (41s)
+  Train Loss: 0.8863
+  Val Loss:   1.1756
+  mIoU:       0.2911
+    Road        : 0.5121
+    Obstacle    : 0.1647
+    Structure   : 0.0328
+    Background  : 0.4548
+
+Epoch [9/100] (41s)
+  Train Loss: 0.8796
+  Val Loss:   1.1388
+  mIoU:       0.3022
+    Road        : 0.4894
+    Obstacle    : 0.1614
+    Structure   : 0.0685
+    Background  : 0.4895
+
+Epoch [10/100] (41s)
+  Train Loss: 0.8807
+  Val Loss:   1.1144
+  mIoU:       0.3111
+    Road        : 0.4676
+    Obstacle    : 0.1785
+    Structure   : 0.0621
+    Background  : 0.5361
+
+Epoch [11/100] (41s)
+  Train Loss: 0.8643
+  Val Loss:   1.1023
+  mIoU:       0.3197
+    Road        : 0.4512
+    Obstacle    : 0.1814
+    Structure   : 0.0985
+    Background  : 0.5475
+  * New best mIoU: 0.3197
+
+Epoch [12/100] (41s)
+  Train Loss: 0.8563
+  Val Loss:   1.0568
+  mIoU:       0.3497
+    Road        : 0.5046
+    Obstacle    : 0.1956
+    Structure   : 0.1355
+    Background  : 0.5632
+  * New best mIoU: 0.3497
+
+Epoch [13/100] (41s)
+  Train Loss: 0.8437
+  Val Loss:   1.0785
+  mIoU:       0.3448
+    Road        : 0.5032
+    Obstacle    : 0.1983
+    Structure   : 0.1336
+    Background  : 0.5441
+
+Epoch [14/100] (41s)
+  Train Loss: 0.8393
+  Val Loss:   1.0771
+  mIoU:       0.3511
+    Road        : 0.4989
+    Obstacle    : 0.2058
+    Structure   : 0.1613
+    Background  : 0.5385
+  * New best mIoU: 0.3511
+
+Epoch [15/100] (41s)
+  Train Loss: 0.8347
+  Val Loss:   1.1599
+  mIoU:       0.3251
+    Road        : 0.3860
+    Obstacle    : 0.1862
+    Structure   : 0.1882
+    Background  : 0.5398
+
+Epoch [16/100] (41s)
+  Train Loss: 0.8191
+  Val Loss:   1.2183
+  mIoU:       0.3029
+    Road        : 0.3926
+    Obstacle    : 0.1703
+    Structure   : 0.1547
+    Background  : 0.4940
+
+Epoch [17/100] (41s)
+  Train Loss: 0.8401
+  Val Loss:   1.1399
+  mIoU:       0.3314
+    Road        : 0.4929
+    Obstacle    : 0.1742
+    Structure   : 0.1729
+    Background  : 0.4858
+
+Epoch [18/100] (41s)
+  Train Loss: 0.7978
+  Val Loss:   1.1014
+  mIoU:       0.3525
+    Road        : 0.5132
+    Obstacle    : 0.1870
+    Structure   : 0.1912
+    Background  : 0.5185
+  * New best mIoU: 0.3525
+
+Epoch [19/100] (41s)
+  Train Loss: 0.8157
+  Val Loss:   1.0084
+  mIoU:       0.3827
+    Road        : 0.5690
+    Obstacle    : 0.2046
+    Structure   : 0.2052
+    Background  : 0.5518
+  * New best mIoU: 0.3827
+
+Epoch [20/100] (41s)
+  Train Loss: 0.8300
+  Val Loss:   1.0614
+  mIoU:       0.3713
+    Road        : 0.4937
+    Obstacle    : 0.2053
+    Structure   : 0.2415
+    Background  : 0.5447
+
+Epoch [21/100] (41s)
+  Train Loss: 0.8121
+  Val Loss:   1.0714
+  mIoU:       0.3609
+    Road        : 0.4554
+    Obstacle    : 0.1945
+    Structure   : 0.2257
+    Background  : 0.5679
+
+Epoch [22/100] (41s)
+  Train Loss: 0.8151
+  Val Loss:   1.0700
+  mIoU:       0.3636
+    Road        : 0.5013
+    Obstacle    : 0.1901
+    Structure   : 0.2296
+    Background  : 0.5333
+
+Epoch [23/100] (41s)
+  Train Loss: 0.8076
+  Val Loss:   1.0836
+  mIoU:       0.3565
+    Road        : 0.5198
+    Obstacle    : 0.1936
+    Structure   : 0.1899
+    Background  : 0.5229
+
+Epoch [24/100] (41s)
+  Train Loss: 0.7897
+  Val Loss:   1.0670
+  mIoU:       0.3591
+    Road        : 0.5166
+    Obstacle    : 0.1876
+    Structure   : 0.2079
+    Background  : 0.5243
+
+Epoch [25/100] (42s)
+  Train Loss: 0.8086
+  Val Loss:   1.1081
+  mIoU:       0.3414
+    Road        : 0.4845
+    Obstacle    : 0.1807
+    Structure   : 0.1934
+    Background  : 0.5068
+
+Epoch [26/100] (42s)
+  Train Loss: 0.8017
+  Val Loss:   1.1033
+  mIoU:       0.3552
+    Road        : 0.4763
+    Obstacle    : 0.1812
+    Structure   : 0.2375
+    Background  : 0.5260
+
+Epoch [27/100] (42s)
+  Train Loss: 0.7635
+  Val Loss:   1.0603
+  mIoU:       0.3683
+    Road        : 0.4998
+    Obstacle    : 0.1939
+    Structure   : 0.2377
+    Background  : 0.5417
+
+Epoch [28/100] (42s)
+  Train Loss: 0.7947
+  Val Loss:   1.1767
+  mIoU:       0.3288
+    Road        : 0.4889
+    Obstacle    : 0.1687
+    Structure   : 0.1966
+    Background  : 0.4611
+
+Epoch [29/100] (41s)
+  Train Loss: 0.7941
+  Val Loss:   1.0374
+  mIoU:       0.3728
+    Road        : 0.5144
+    Obstacle    : 0.1992
+    Structure   : 0.2364
+    Background  : 0.5411
+
+Epoch [30/100] (41s)
+  Train Loss: 0.7798
+  Val Loss:   1.1220
+  mIoU:       0.3403
+    Road        : 0.3965
+    Obstacle    : 0.1813
+    Structure   : 0.2525
+    Background  : 0.5308
+
+Epoch [31/100] (41s)
+  Train Loss: 0.7772
+  Val Loss:   1.0407
+  mIoU:       0.3748
+    Road        : 0.5173
+    Obstacle    : 0.1953
+    Structure   : 0.2489
+    Background  : 0.5376
+
+Epoch [32/100] (41s)
+  Train Loss: 0.8006
+  Val Loss:   1.0815
+  mIoU:       0.3556
+    Road        : 0.4420
+    Obstacle    : 0.1769
+    Structure   : 0.2485
+    Background  : 0.5550
+
+Epoch [33/100] (41s)
+  Train Loss: 0.7679
+  Val Loss:   1.0384
+  mIoU:       0.3817
+    Road        : 0.5503
+    Obstacle    : 0.1897
+    Structure   : 0.2591
+    Background  : 0.5277
+
+Epoch [34/100] (41s)
+  Train Loss: 0.7769
+  Val Loss:   1.0123
+  mIoU:       0.3848
+    Road        : 0.5366
+    Obstacle    : 0.1975
+    Structure   : 0.2469
+    Background  : 0.5580
+  * New best mIoU: 0.3848
+
+Epoch [35/100] (41s)
+  Train Loss: 0.7889
+  Val Loss:   1.0990
+  mIoU:       0.3554
+    Road        : 0.4703
+    Obstacle    : 0.1807
+    Structure   : 0.2241
+    Background  : 0.5467
+
+Epoch [36/100] (41s)
+  Train Loss: 0.7781
+  Val Loss:   1.0552
+  mIoU:       0.3783
+    Road        : 0.5076
+    Obstacle    : 0.1917
+    Structure   : 0.2765
+    Background  : 0.5373
+
+Epoch [37/100] (41s)
+  Train Loss: 0.7719
+  Val Loss:   1.1347
+  mIoU:       0.3403
+    Road        : 0.5054
+    Obstacle    : 0.1715
+    Structure   : 0.1863
+    Background  : 0.4979
+
+Epoch [38/100] (41s)
+  Train Loss: 0.7784
+  Val Loss:   1.0491
+  mIoU:       0.3700
+    Road        : 0.5505
+    Obstacle    : 0.1900
+    Structure   : 0.1979
+    Background  : 0.5415
+
+Epoch [39/100] (41s)
+  Train Loss: 0.7525
+  Val Loss:   1.0798
+  mIoU:       0.3639
+    Road        : 0.4981
+    Obstacle    : 0.1872
+    Structure   : 0.2502
+    Background  : 0.5201
+
+Epoch [40/100] (41s)
+  Train Loss: 0.7531
+  Val Loss:   1.0610
+  mIoU:       0.3605
+    Road        : 0.4855
+    Obstacle    : 0.1841
+    Structure   : 0.2254
+    Background  : 0.5472
+
+Epoch [41/100] (41s)
+  Train Loss: 0.7586
+  Val Loss:   1.0934
+  mIoU:       0.3547
+    Road        : 0.4986
+    Obstacle    : 0.1812
+    Structure   : 0.2428
+    Background  : 0.4960
+
+Epoch [42/100] (41s)
+  Train Loss: 0.7555
+  Val Loss:   1.0548
+  mIoU:       0.3724
+    Road        : 0.5491
+    Obstacle    : 0.1920
+    Structure   : 0.2047
+    Background  : 0.5436
+
+Epoch [43/100] (41s)
+  Train Loss: 0.7619
+  Val Loss:   1.0240
+  mIoU:       0.3800
+    Road        : 0.5746
+    Obstacle    : 0.1982
+    Structure   : 0.2100
+    Background  : 0.5373
+
+Epoch [44/100] (41s)
+  Train Loss: 0.7778
+  Val Loss:   1.0914
+  mIoU:       0.3540
+    Road        : 0.4634
+    Obstacle    : 0.1722
+    Structure   : 0.2311
+    Background  : 0.5491
+
+Epoch [45/100] (41s)
+  Train Loss: 0.7621
+  Val Loss:   1.0206
+  mIoU:       0.3778
+    Road        : 0.5449
+    Obstacle    : 0.1921
+    Structure   : 0.2306
+    Background  : 0.5435
+
+Epoch [46/100] (41s)
+  Train Loss: 0.7622
+  Val Loss:   1.0861
+  mIoU:       0.3515
+    Road        : 0.4658
+    Obstacle    : 0.1717
+    Structure   : 0.2375
+    Background  : 0.5308
+
+Epoch [47/100] (41s)
+  Train Loss: 0.7658
+  Val Loss:   1.0673
+  mIoU:       0.3685
+    Road        : 0.4804
+    Obstacle    : 0.1846
+    Structure   : 0.2483
+    Background  : 0.5606
+
+Epoch [48/100] (41s)
+  Train Loss: 0.7527
+  Val Loss:   1.0705
+  mIoU:       0.3661
+    Road        : 0.4901
+    Obstacle    : 0.1865
+    Structure   : 0.2429
+    Background  : 0.5448
+
+Epoch [49/100] (41s)
+  Train Loss: 0.7419
+  Val Loss:   1.0731
+  mIoU:       0.3635
+    Road        : 0.5479
+    Obstacle    : 0.1810
+    Structure   : 0.2049
+    Background  : 0.5202
+
+Epoch [50/100] (41s)
+  Train Loss: 0.7588
+  Val Loss:   1.0556
+  mIoU:       0.3692
+    Road        : 0.5371
+    Obstacle    : 0.1882
+    Structure   : 0.2333
+    Background  : 0.5182
+
+Epoch [51/100] (41s)
+  Train Loss: 0.7480
+  Val Loss:   1.0547
+  mIoU:       0.3704
+    Road        : 0.5020
+    Obstacle    : 0.1884
+    Structure   : 0.2464
+    Background  : 0.5448
+
+Epoch [52/100] (41s)
+  Train Loss: 0.7700
+  Val Loss:   1.0710
+  mIoU:       0.3688
+    Road        : 0.5210
+    Obstacle    : 0.1863
+    Structure   : 0.2229
+    Background  : 0.5447
+
+Epoch [53/100] (41s)
+  Train Loss: 0.7373
+  Val Loss:   1.0879
+  mIoU:       0.3637
+    Road        : 0.5178
+    Obstacle    : 0.1834
+    Structure   : 0.2192
+    Background  : 0.5344
+
+Epoch [54/100] (41s)
+  Train Loss: 0.7583
+  Val Loss:   1.0275
+  mIoU:       0.3766
+    Road        : 0.5582
+    Obstacle    : 0.1904
+    Structure   : 0.2092
+    Background  : 0.5486
+
+Epoch [55/100] (41s)
+  Train Loss: 0.7673
+  Val Loss:   1.0613
+  mIoU:       0.3672
+    Road        : 0.5073
+    Obstacle    : 0.1774
+    Structure   : 0.2497
+    Background  : 0.5344
+
+Epoch [56/100] (41s)
+  Train Loss: 0.7634
+  Val Loss:   1.0727
+  mIoU:       0.3604
+    Road        : 0.4995
+    Obstacle    : 0.1773
+    Structure   : 0.2377
+    Background  : 0.5272
+
+Epoch [57/100] (41s)
+  Train Loss: 0.7349
+  Val Loss:   1.1048
+  mIoU:       0.3515
+    Road        : 0.4945
+    Obstacle    : 0.1740
+    Structure   : 0.1932
+    Background  : 0.5445
+
+Epoch [58/100] (41s)
+  Train Loss: 0.7542
+  Val Loss:   1.0631
+  mIoU:       0.3686
+    Road        : 0.5135
+    Obstacle    : 0.1828
+    Structure   : 0.2356
+    Background  : 0.5426
+
+Epoch [59/100] (41s)
+  Train Loss: 0.7272
+  Val Loss:   1.0836
+  mIoU:       0.3571
+    Road        : 0.5215
+    Obstacle    : 0.1761
+    Structure   : 0.2054
+    Background  : 0.5253
+
+Epoch [60/100] (41s)
+  Train Loss: 0.7399
+  Val Loss:   1.0807
+  mIoU:       0.3612
+    Road        : 0.5045
+    Obstacle    : 0.1770
+    Structure   : 0.2437
+    Background  : 0.5196
+
+Epoch [61/100] (41s)
+  Train Loss: 0.7354
+  Val Loss:   1.0510
+  mIoU:       0.3707
+    Road        : 0.5290
+    Obstacle    : 0.1863
+    Structure   : 0.2228
+    Background  : 0.5448
+
+Epoch [62/100] (41s)
+  Train Loss: 0.7513
+  Val Loss:   1.0247
+  mIoU:       0.3835
+    Road        : 0.5500
+    Obstacle    : 0.1898
+    Structure   : 0.2497
+    Background  : 0.5447
+
+Epoch [63/100] (41s)
+  Train Loss: 0.7567
+  Val Loss:   1.0515
+  mIoU:       0.3735
+    Road        : 0.5286
+    Obstacle    : 0.1879
+    Structure   : 0.2311
+    Background  : 0.5466
+
+Epoch [64/100] (41s)
+  Train Loss: 0.7349
+  Val Loss:   1.0971
+  mIoU:       0.3542
+    Road        : 0.4815
+    Obstacle    : 0.1781
+    Structure   : 0.2161
+    Background  : 0.5411
+
+Epoch [65/100] (41s)
+  Train Loss: 0.7501
+  Val Loss:   1.0414
+  mIoU:       0.3748
+    Road        : 0.5183
+    Obstacle    : 0.1874
+    Structure   : 0.2399
+    Background  : 0.5538
+
+Epoch [66/100] (41s)
+  Train Loss: 0.7339
+  Val Loss:   1.0804
+  mIoU:       0.3640
+    Road        : 0.5061
+    Obstacle    : 0.1810
+    Structure   : 0.2259
+    Background  : 0.5432
+
+Epoch [67/100] (41s)
+  Train Loss: 0.7332
+  Val Loss:   1.0917
+  mIoU:       0.3592
+    Road        : 0.4889
+    Obstacle    : 0.1806
+    Structure   : 0.2353
+    Background  : 0.5320
+
+Epoch [68/100] (41s)
+  Train Loss: 0.7351
+  Val Loss:   1.0555
+  mIoU:       0.3744
+    Road        : 0.5370
+    Obstacle    : 0.1902
+    Structure   : 0.2281
+    Background  : 0.5425
+
+Epoch [69/100] (41s)
+  Train Loss: 0.7528
+  Val Loss:   1.0401
+  mIoU:       0.3740
+    Road        : 0.5125
+    Obstacle    : 0.1846
+    Structure   : 0.2410
+    Background  : 0.5580
+
+Epoch [70/100] (41s)
+  Train Loss: 0.7341
+  Val Loss:   1.0893
+  mIoU:       0.3531
+    Road        : 0.4722
+    Obstacle    : 0.1766
+    Structure   : 0.2144
+    Background  : 0.5492
+
+Epoch [71/100] (41s)
+  Train Loss: 0.7215
+  Val Loss:   1.0587
+  mIoU:       0.3701
+    Road        : 0.5317
+    Obstacle    : 0.1832
+    Structure   : 0.2215
+    Background  : 0.5440
+
+Epoch [72/100] (41s)
+  Train Loss: 0.7412
+  Val Loss:   1.0459
+  mIoU:       0.3714
+    Road        : 0.5216
+    Obstacle    : 0.1870
+    Structure   : 0.2414
+    Background  : 0.5357
+
+Epoch [73/100] (41s)
+  Train Loss: 0.7129
+  Val Loss:   1.0833
+  mIoU:       0.3624
+    Road        : 0.5003
+    Obstacle    : 0.1788
+    Structure   : 0.2301
+    Background  : 0.5405
+
+Epoch [74/100] (41s)
+  Train Loss: 0.7484
+  Val Loss:   1.0410
+  mIoU:       0.3788
+    Road        : 0.5258
+    Obstacle    : 0.1860
+    Structure   : 0.2561
+    Background  : 0.5475
+
+Epoch [75/100] (41s)
+  Train Loss: 0.7197
+  Val Loss:   1.0613
+  mIoU:       0.3694
+    Road        : 0.5093
+    Obstacle    : 0.1824
+    Structure   : 0.2448
+    Background  : 0.5410
+
+Epoch [76/100] (41s)
+  Train Loss: 0.7369
+  Val Loss:   1.0472
+  mIoU:       0.3771
+    Road        : 0.5342
+    Obstacle    : 0.1898
+    Structure   : 0.2414
+    Background  : 0.5429
+
+Epoch [77/100] (41s)
+  Train Loss: 0.7220
+  Val Loss:   1.0429
+  mIoU:       0.3793
+    Road        : 0.5386
+    Obstacle    : 0.1865
+    Structure   : 0.2468
+    Background  : 0.5453
+
+Epoch [78/100] (41s)
+  Train Loss: 0.7210
+  Val Loss:   1.0673
+  mIoU:       0.3720
+    Road        : 0.5214
+    Obstacle    : 0.1831
+    Structure   : 0.2428
+    Background  : 0.5406
+
+Epoch [79/100] (41s)
+  Train Loss: 0.7456
+  Val Loss:   1.0412
+  mIoU:       0.3751
+    Road        : 0.5188
+    Obstacle    : 0.1847
+    Structure   : 0.2506
+    Background  : 0.5463
+
+Epoch [80/100] (41s)
+  Train Loss: 0.7218
+  Val Loss:   1.0801
+  mIoU:       0.3608
+    Road        : 0.4940
+    Obstacle    : 0.1805
+    Structure   : 0.2277
+    Background  : 0.5412
+
+Epoch [81/100] (41s)
+  Train Loss: 0.7343
+  Val Loss:   1.0749
+  mIoU:       0.3628
+    Road        : 0.5031
+    Obstacle    : 0.1804
+    Structure   : 0.2221
+    Background  : 0.5456
+
+Epoch [82/100] (41s)
+  Train Loss: 0.7282
+  Val Loss:   1.0624
+  mIoU:       0.3672
+    Road        : 0.5129
+    Obstacle    : 0.1835
+    Structure   : 0.2259
+    Background  : 0.5465
+
+Epoch [83/100] (41s)
+  Train Loss: 0.7281
+  Val Loss:   1.0797
+  mIoU:       0.3636
+    Road        : 0.4935
+    Obstacle    : 0.1800
+    Structure   : 0.2389
+    Background  : 0.5422
+
+Epoch [84/100] (41s)
+  Train Loss: 0.7300
+  Val Loss:   1.0693
+  mIoU:       0.3683
+    Road        : 0.5170
+    Obstacle    : 0.1828
+    Structure   : 0.2300
+    Background  : 0.5434
+
+Epoch [85/100] (41s)
+  Train Loss: 0.7506
+  Val Loss:   1.0571
+  mIoU:       0.3704
+    Road        : 0.5250
+    Obstacle    : 0.1850
+    Structure   : 0.2294
+    Background  : 0.5420
+
+Epoch [86/100] (41s)
+  Train Loss: 0.7340
+  Val Loss:   1.0906
+  mIoU:       0.3596
+    Road        : 0.4836
+    Obstacle    : 0.1788
+    Structure   : 0.2311
+    Background  : 0.5448
+
+Epoch [87/100] (41s)
+  Train Loss: 0.7120
+  Val Loss:   1.0548
+  mIoU:       0.3737
+    Road        : 0.5291
+    Obstacle    : 0.1865
+    Structure   : 0.2398
+    Background  : 0.5396
+
+Epoch [88/100] (41s)
+  Train Loss: 0.7190
+  Val Loss:   1.0401
+  mIoU:       0.3804
+    Road        : 0.5326
+    Obstacle    : 0.1870
+    Structure   : 0.2530
+    Background  : 0.5490
+
+Epoch [89/100] (41s)
+  Train Loss: 0.7358
+  Val Loss:   1.0742
+  mIoU:       0.3654
+    Road        : 0.5047
+    Obstacle    : 0.1825
+    Structure   : 0.2346
+    Background  : 0.5397
+
+Epoch [90/100] (41s)
+  Train Loss: 0.7387
+  Val Loss:   1.0883
+  mIoU:       0.3643
+    Road        : 0.5060
+    Obstacle    : 0.1808
+    Structure   : 0.2349
+    Background  : 0.5356
+
+Epoch [91/100] (41s)
+  Train Loss: 0.7189
+  Val Loss:   1.0620
+  mIoU:       0.3725
+    Road        : 0.5316
+    Obstacle    : 0.1857
+    Structure   : 0.2324
+    Background  : 0.5405
+
+Epoch [92/100] (41s)
+  Train Loss: 0.7164
+  Val Loss:   1.0713
+  mIoU:       0.3703
+    Road        : 0.5219
+    Obstacle    : 0.1841
+    Structure   : 0.2396
+    Background  : 0.5355
+
+Epoch [93/100] (41s)
+  Train Loss: 0.7248
+  Val Loss:   1.0666
+  mIoU:       0.3702
+    Road        : 0.5224
+    Obstacle    : 0.1834
+    Structure   : 0.2358
+    Background  : 0.5392
+
+Epoch [94/100] (41s)
+  Train Loss: 0.7238
+  Val Loss:   1.0574
+  mIoU:       0.3744
+    Road        : 0.5257
+    Obstacle    : 0.1844
+    Structure   : 0.2473
+    Background  : 0.5403
+
+Epoch [95/100] (41s)
+  Train Loss: 0.7220
+  Val Loss:   1.0783
+  mIoU:       0.3654
+    Road        : 0.5037
+    Obstacle    : 0.1809
+    Structure   : 0.2346
+    Background  : 0.5422
+
+Epoch [96/100] (41s)
+  Train Loss: 0.7145
+  Val Loss:   1.0769
+  mIoU:       0.3690
+    Road        : 0.5174
+    Obstacle    : 0.1831
+    Structure   : 0.2343
+    Background  : 0.5410
+
+Epoch [97/100] (41s)
+  Train Loss: 0.7142
+  Val Loss:   1.0482
+  mIoU:       0.3765
+    Road        : 0.5379
+    Obstacle    : 0.1880
+    Structure   : 0.2383
+    Background  : 0.5417
+
+Epoch [98/100] (41s)
+  Train Loss: 0.7410
+  Val Loss:   1.0342
+  mIoU:       0.3810
+    Road        : 0.5469
+    Obstacle    : 0.1883
+    Structure   : 0.2462
+    Background  : 0.5427
+
+Epoch [99/100] (41s)
+  Train Loss: 0.7376
+  Val Loss:   1.0582
+  mIoU:       0.3708
+    Road        : 0.5214
+    Obstacle    : 0.1846
+    Structure   : 0.2319
+    Background  : 0.5451
+
+Epoch [100/100] (42s)
+  Train Loss: 0.7169
+  Val Loss:   1.0849
+  mIoU:       0.3636
+    Road        : 0.5091
+    Obstacle    : 0.1817
+    Structure   : 0.2286
+    Background  : 0.5352
+
+Training complete. Best mIoU: 0.3848
+Best model saved to: checkpoints_fcn/best.pth
+Using device: cuda
+Input resolution: 128x128 (fixed for FPGA)
+[CityscapesADAS] train: Found 2975 images
+[CityscapesADAS] val: Found 500 images
+Cityscapes: 2975 train, 500 val
+[IDDADAS] train: Found 7034 image-label pairs
+[IDDADAS] val: Found 1055 image-label pairs
+IDD: 7034 train, 1055 val
+Combined: 10009 images
+SimpleFCN parameters: 11,116 (10.9 KB at INT8)
+Loaded weights from: checkpoints_fcn/best.pth (mIoU=0.38476557159213703)
+
+Starting training for 50 epochs...
+  Classes: ['Road', 'Obstacle', 'Structure', 'Background']
+
+Epoch [1/50] (76s)
+  Train Loss: 0.8702
+  Val Loss:   0.7195
+  mIoU:       0.4674
+    Road        : 0.7318
+    Obstacle    : 0.2664
+    Structure   : 0.1546
+    Background  : 0.7169
+  * New best mIoU: 0.4674
+
+Epoch [2/50] (68s)
+  Train Loss: 0.7683
+  Val Loss:   0.6798
+  mIoU:       0.4814
+    Road        : 0.7415
+    Obstacle    : 0.2783
+    Structure   : 0.1719
+    Background  : 0.7339
+  * New best mIoU: 0.4814
+
+Epoch [3/50] (69s)
+  Train Loss: 0.7555
+  Val Loss:   0.6701
+  mIoU:       0.4921
+    Road        : 0.7623
+    Obstacle    : 0.2847
+    Structure   : 0.1837
+    Background  : 0.7378
+  * New best mIoU: 0.4921
+
+Epoch [4/50] (68s)
+  Train Loss: 0.7357
+  Val Loss:   0.6531
+  mIoU:       0.5016
+    Road        : 0.7656
+    Obstacle    : 0.2982
+    Structure   : 0.2010
+    Background  : 0.7415
+  * New best mIoU: 0.5016
+
+Epoch [5/50] (68s)
+  Train Loss: 0.7249
+  Val Loss:   0.6491
+  mIoU:       0.4998
+    Road        : 0.7696
+    Obstacle    : 0.2921
+    Structure   : 0.1947
+    Background  : 0.7426
+
+Epoch [6/50] (68s)
+  Train Loss: 0.7078
+  Val Loss:   0.6528
+  mIoU:       0.5022
+    Road        : 0.7748
+    Obstacle    : 0.2903
+    Structure   : 0.2085
+    Background  : 0.7351
+  * New best mIoU: 0.5022
+
+Epoch [7/50] (68s)
+  Train Loss: 0.7034
+  Val Loss:   0.6406
+  mIoU:       0.5139
+    Road        : 0.7733
+    Obstacle    : 0.3185
+    Structure   : 0.2292
+    Background  : 0.7348
+  * New best mIoU: 0.5139
+
+Epoch [8/50] (69s)
+  Train Loss: 0.7011
+  Val Loss:   0.6330
+  mIoU:       0.5128
+    Road        : 0.7676
+    Obstacle    : 0.3146
+    Structure   : 0.2299
+    Background  : 0.7391
+
+Epoch [9/50] (68s)
+  Train Loss: 0.6964
+  Val Loss:   0.6151
+  mIoU:       0.5202
+    Road        : 0.7858
+    Obstacle    : 0.3178
+    Structure   : 0.2211
+    Background  : 0.7560
+  * New best mIoU: 0.5202
+
+Epoch [10/50] (68s)
+  Train Loss: 0.6866
+  Val Loss:   0.6108
+  mIoU:       0.5270
+    Road        : 0.7820
+    Obstacle    : 0.3211
+    Structure   : 0.2490
+    Background  : 0.7559
+  * New best mIoU: 0.5270
+
+Epoch [11/50] (68s)
+  Train Loss: 0.6848
+  Val Loss:   0.6363
+  mIoU:       0.5114
+    Road        : 0.7607
+    Obstacle    : 0.3154
+    Structure   : 0.2354
+    Background  : 0.7344
+
+Epoch [12/50] (68s)
+  Train Loss: 0.6840
+  Val Loss:   0.6098
+  mIoU:       0.5298
+    Road        : 0.7836
+    Obstacle    : 0.3239
+    Structure   : 0.2584
+    Background  : 0.7533
+  * New best mIoU: 0.5298
+
+Epoch [13/50] (68s)
+  Train Loss: 0.6746
+  Val Loss:   0.5987
+  mIoU:       0.5307
+    Road        : 0.7950
+    Obstacle    : 0.3183
+    Structure   : 0.2448
+    Background  : 0.7647
+  * New best mIoU: 0.5307
+
+Epoch [14/50] (68s)
+  Train Loss: 0.6710
+  Val Loss:   0.6032
+  mIoU:       0.5282
+    Road        : 0.7929
+    Obstacle    : 0.3331
+    Structure   : 0.2357
+    Background  : 0.7511
+
+Epoch [15/50] (68s)
+  Train Loss: 0.6733
+  Val Loss:   0.5991
+  mIoU:       0.5302
+    Road        : 0.7918
+    Obstacle    : 0.3247
+    Structure   : 0.2498
+    Background  : 0.7544
+
+Epoch [16/50] (68s)
+  Train Loss: 0.6687
+  Val Loss:   0.5922
+  mIoU:       0.5433
+    Road        : 0.8038
+    Obstacle    : 0.3308
+    Structure   : 0.2716
+    Background  : 0.7670
+  * New best mIoU: 0.5433
+
+Epoch [17/50] (68s)
+  Train Loss: 0.6661
+  Val Loss:   0.5918
+  mIoU:       0.5412
+    Road        : 0.7946
+    Obstacle    : 0.3327
+    Structure   : 0.2747
+    Background  : 0.7627
+
+Epoch [18/50] (69s)
+  Train Loss: 0.6616
+  Val Loss:   0.5885
+  mIoU:       0.5380
+    Road        : 0.8034
+    Obstacle    : 0.3347
+    Structure   : 0.2493
+    Background  : 0.7646
+
+Epoch [19/50] (69s)
+  Train Loss: 0.6615
+  Val Loss:   0.5886
+  mIoU:       0.5373
+    Road        : 0.8053
+    Obstacle    : 0.3331
+    Structure   : 0.2487
+    Background  : 0.7620
+
+Epoch [20/50] (68s)
+  Train Loss: 0.6615
+  Val Loss:   0.5828
+  mIoU:       0.5427
+    Road        : 0.7979
+    Obstacle    : 0.3265
+    Structure   : 0.2738
+    Background  : 0.7725
+
+Epoch [21/50] (68s)
+  Train Loss: 0.6553
+  Val Loss:   0.5838
+  mIoU:       0.5405
+    Road        : 0.8022
+    Obstacle    : 0.3299
+    Structure   : 0.2643
+    Background  : 0.7656
+
+Epoch [22/50] (68s)
+  Train Loss: 0.6486
+  Val Loss:   0.5796
+  mIoU:       0.5442
+    Road        : 0.8066
+    Obstacle    : 0.3292
+    Structure   : 0.2701
+    Background  : 0.7709
+  * New best mIoU: 0.5442
+
+Epoch [23/50] (68s)
+  Train Loss: 0.6536
+  Val Loss:   0.5799
+  mIoU:       0.5454
+    Road        : 0.8024
+    Obstacle    : 0.3380
+    Structure   : 0.2750
+    Background  : 0.7660
+  * New best mIoU: 0.5454
+
+Epoch [24/50] (69s)
+  Train Loss: 0.6518
+  Val Loss:   0.5795
+  mIoU:       0.5461
+    Road        : 0.8095
+    Obstacle    : 0.3363
+    Structure   : 0.2707
+    Background  : 0.7677
+  * New best mIoU: 0.5461
+
+Epoch [25/50] (68s)
+  Train Loss: 0.6558
+  Val Loss:   0.5787
+  mIoU:       0.5442
+    Road        : 0.8042
+    Obstacle    : 0.3382
+    Structure   : 0.2713
+    Background  : 0.7630
+
+Epoch [26/50] (69s)
+  Train Loss: 0.6566
+  Val Loss:   0.5827
+  mIoU:       0.5453
+    Road        : 0.8086
+    Obstacle    : 0.3303
+    Structure   : 0.2755
+    Background  : 0.7666
+
+Epoch [27/50] (68s)
+  Train Loss: 0.6501
+  Val Loss:   0.5771
+  mIoU:       0.5417
+    Road        : 0.8057
+    Obstacle    : 0.3279
+    Structure   : 0.2606
+    Background  : 0.7724
+
+Epoch [28/50] (68s)
+  Train Loss: 0.6491
+  Val Loss:   0.5748
+  mIoU:       0.5458
+    Road        : 0.8085
+    Obstacle    : 0.3330
+    Structure   : 0.2716
+    Background  : 0.7702
+
+Epoch [29/50] (68s)
+  Train Loss: 0.6425
+  Val Loss:   0.5753
+  mIoU:       0.5527
+    Road        : 0.8060
+    Obstacle    : 0.3464
+    Structure   : 0.2940
+    Background  : 0.7646
+  * New best mIoU: 0.5527
+
+Epoch [30/50] (68s)
+  Train Loss: 0.6436
+  Val Loss:   0.5710
+  mIoU:       0.5498
+    Road        : 0.8056
+    Obstacle    : 0.3393
+    Structure   : 0.2828
+    Background  : 0.7715
+
+Epoch [31/50] (69s)
+  Train Loss: 0.6462
+  Val Loss:   0.5698
+  mIoU:       0.5500
+    Road        : 0.8100
+    Obstacle    : 0.3395
+    Structure   : 0.2802
+    Background  : 0.7702
+
+Epoch [32/50] (69s)
+  Train Loss: 0.6424
+  Val Loss:   0.5760
+  mIoU:       0.5521
+    Road        : 0.8157
+    Obstacle    : 0.3383
+    Structure   : 0.2825
+    Background  : 0.7717
+
+Epoch [33/50] (69s)
+  Train Loss: 0.6459
+  Val Loss:   0.5703
+  mIoU:       0.5501
+    Road        : 0.8151
+    Obstacle    : 0.3434
+    Structure   : 0.2703
+    Background  : 0.7717
+
+Epoch [34/50] (68s)
+  Train Loss: 0.6469
+  Val Loss:   0.5707
+  mIoU:       0.5493
+    Road        : 0.8037
+    Obstacle    : 0.3404
+    Structure   : 0.2846
+    Background  : 0.7683
+
+Epoch [35/50] (68s)
+  Train Loss: 0.6455
+  Val Loss:   0.5677
+  mIoU:       0.5493
+    Road        : 0.8079
+    Obstacle    : 0.3431
+    Structure   : 0.2772
+    Background  : 0.7689
+
+Epoch [36/50] (68s)
+  Train Loss: 0.6389
+  Val Loss:   0.5677
+  mIoU:       0.5531
+    Road        : 0.8131
+    Obstacle    : 0.3423
+    Structure   : 0.2839
+    Background  : 0.7732
+  * New best mIoU: 0.5531
+
+Epoch [37/50] (69s)
+  Train Loss: 0.6402
+  Val Loss:   0.5711
+  mIoU:       0.5516
+    Road        : 0.8132
+    Obstacle    : 0.3381
+    Structure   : 0.2818
+    Background  : 0.7734
+
+Epoch [38/50] (69s)
+  Train Loss: 0.6398
+  Val Loss:   0.5692
+  mIoU:       0.5498
+    Road        : 0.8136
+    Obstacle    : 0.3401
+    Structure   : 0.2738
+    Background  : 0.7716
+
+Epoch [39/50] (68s)
+  Train Loss: 0.6365
+  Val Loss:   0.5673
+  mIoU:       0.5474
+    Road        : 0.8078
+    Obstacle    : 0.3403
+    Structure   : 0.2718
+    Background  : 0.7698
+
+Epoch [40/50] (68s)
+  Train Loss: 0.6404
+  Val Loss:   0.5656
+  mIoU:       0.5540
+    Road        : 0.8128
+    Obstacle    : 0.3442
+    Structure   : 0.2867
+    Background  : 0.7723
+  * New best mIoU: 0.5540
+
+Epoch [41/50] (68s)
+  Train Loss: 0.6401
+  Val Loss:   0.5665
+  mIoU:       0.5538
+    Road        : 0.8141
+    Obstacle    : 0.3428
+    Structure   : 0.2852
+    Background  : 0.7730
+
+Epoch [42/50] (69s)
+  Train Loss: 0.6418
+  Val Loss:   0.5656
+  mIoU:       0.5528
+    Road        : 0.8133
+    Obstacle    : 0.3432
+    Structure   : 0.2815
+    Background  : 0.7731
+
+Epoch [43/50] (68s)
+  Train Loss: 0.6338
+  Val Loss:   0.5661
+  mIoU:       0.5534
+    Road        : 0.8126
+    Obstacle    : 0.3412
+    Structure   : 0.2865
+    Background  : 0.7732
+
+Epoch [44/50] (69s)
+  Train Loss: 0.6423
+  Val Loss:   0.5644
+  mIoU:       0.5546
+    Road        : 0.8147
+    Obstacle    : 0.3462
+    Structure   : 0.2852
+    Background  : 0.7721
+  * New best mIoU: 0.5546
+
+Epoch [45/50] (69s)
+  Train Loss: 0.6418
+  Val Loss:   0.5655
+  mIoU:       0.5522
+    Road        : 0.8103
+    Obstacle    : 0.3443
+    Structure   : 0.2830
+    Background  : 0.7710
+
+Epoch [46/50] (69s)
+  Train Loss: 0.6361
+  Val Loss:   0.5644
+  mIoU:       0.5570
+    Road        : 0.8162
+    Obstacle    : 0.3453
+    Structure   : 0.2919
+    Background  : 0.7745
+  * New best mIoU: 0.5570
+
+Epoch [47/50] (68s)
+  Train Loss: 0.6396
+  Val Loss:   0.5644
+  mIoU:       0.5512
+    Road        : 0.8099
+    Obstacle    : 0.3403
+    Structure   : 0.2812
+    Background  : 0.7735
+
+Epoch [48/50] (69s)
+  Train Loss: 0.6402
+  Val Loss:   0.5653
+  mIoU:       0.5531
+    Road        : 0.8135
+    Obstacle    : 0.3432
+    Structure   : 0.2833
+    Background  : 0.7724
+
+Epoch [49/50] (68s)
+  Train Loss: 0.6412
+  Val Loss:   0.5653
+  mIoU:       0.5537
+    Road        : 0.8147
+    Obstacle    : 0.3418
+    Structure   : 0.2838
+    Background  : 0.7746
+
+Epoch [50/50] (68s)
+  Train Loss: 0.6389
+  Val Loss:   0.5644
+  mIoU:       0.5532
+    Road        : 0.8125
+    Obstacle    : 0.3443
+    Structure   : 0.2835
+    Background  : 0.7724
+
+Training complete. Best mIoU: 0.5570
+Best model saved to: checkpoints_fcn_idd/best.pth
